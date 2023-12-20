@@ -17,6 +17,13 @@ class Animal {
     };
 }
 
+const fluffy = new Animal('Fluffy', 'cat', 'green', 100)
+console.log(fluffy.name);
+console.log(fluffy.feed());
+console.log(fluffy.greet());
+console.log(fluffy.hunger);
+
+
 class Cat extends Animal {
     constructor(name, color, hunger){
         super(name, 'cat', color, hunger)
@@ -55,11 +62,7 @@ console.log(barky.greet())
 console.log(barky.feed())
 
 
-const fluffy = new Animal('Fluffy', 'cat', 'green', 100)
-// console.log(fluffy.name);
-// console.log(fluffy.feed());
-// console.log(fluffy.greet());
-// console.log(fluffy.hunger);
+
 
 
 //Step 2
